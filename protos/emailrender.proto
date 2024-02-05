@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+service GrpcEmailRender {
+	rpc RenderEmail (EmailRenderRequest) returns (EmailRenderResponse);
+}
+
+message EmailRenderRequest {
+	string workflowDocumentJson = 1;
+	string replyContentDocumentJson = 2;
+	string successDocumentJson = 3;
+	string fallbackDocumentJson = 4;
+	string adaptiveCardSchema = 5;
+	string workflowId = 6;
+	string accessToken = 7;
+	string spaceName = 8;
+	string subdomain = 9;
+	string resourcesJson = 10;
+}
+
+message EmailRenderResponse {
+	string ampHtml = 1;
+	string html = 2;
+	string plainText = 3;
+}

@@ -1,0 +1,53 @@
+{
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/_pages/_document.jsx",
+    "src/_pages/_document.jsx",
+    "src/_pages/_document.jsx",
+    "src/_pages/api/render.jsx",
+    "src/components/blocks/text/text.amp.sx",
+    "src/components/addons/poll/poll.amp.jsx",
+    "src/_pages/index.jsx",
+    "src/_pages/index.jsx",
+    "src/components/blocks/bullet-list-item/bullet-list-item.html.jsx",
+    "src/components/layouts/InteractiveWrapper.jsx",
+    ".next/types/**/*.ts"
+, "index.js", "server.jsx", "src/components/BlockRender.jsx", "src/components/layouts/basic-mail-layout.jsx", "src/components/blocks/blockquote/blockquote.jsx", "src/components/blocks/bullet-list/bullet-list.jsx", "src/components/blocks/code-block/code-block.jsx", "src/components/blocks/hard-break/hard-break.jsx", "src/components/blocks/heading/heading.jsx", "src/components/blocks/list-item/list-item.jsx", "src/components/blocks/ordered-list/ordered-list.jsx", "src/components/blocks/paragraph/paragraph.jsx", "src/components/blocks/passthrough/passthrough.jsx", "src/components/blocks/table/table-cell.jsx", "src/components/blocks/table/table-header.jsx", "src/components/blocks/table/table-row.jsx", "src/components/blocks/table/table.jsx", "src/components/blocks/text/text.jsx", "src/pages/addons-amp/poll/index.jsx.jsx", "src/components/amp/amp-document.jsx", "src/components/amp/amp-form.jsx", "utils/content.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
