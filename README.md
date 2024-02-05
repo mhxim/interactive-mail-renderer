@@ -9,4 +9,4 @@ Due to the majority of MS Outlook versions still using the Word HTML renderer fo
 
 
 ## Result
-![](https://github.com/mhxim/interactive-mail-renderer/example.gif)
+![](https://github.com/mhxim/interactive-mail-renderer/blob/master/example.gif)
